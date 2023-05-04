@@ -9,7 +9,7 @@
     <bean id="myEventPublisher" class="ru.learnUp.homework.MyEventPublisher"/>
 
     <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
-        <property name="basename" value="text"/>
+        <property name="basename" value="ru/learnUp/homework/text"/>
         <property name="defaultEncoding" value="UTF-8"/>
     </bean>
 

@@ -16,7 +16,7 @@ public class GuessingGame implements ApplicationContextAware {
     static Locale locale = Locale.getDefault();
 
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("configuration.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("ru/learnUp/homework/configuration.xml");
         MyEventPublisher publisher = context.getBean(MyEventPublisher.class);
         MyEventListener listener = context.getBean((MyEventListener.class));
         Scanner scanner = new Scanner(System.in);
